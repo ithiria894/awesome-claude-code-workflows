@@ -33,7 +33,7 @@ Workflow systems that simulate an entire engineering team with specialized agent
 
 - [gstack](https://github.com/garrytan/gstack) - Virtual engineering team with 25 skills — CEO review, design review, eng review, QA, ship, canary deploy, freeze/guard safety hooks, and browser-based testing. The gold standard for "skills + hooks + CLAUDE.md as a startup engineering org."
 - [Superpowers](https://github.com/jasonm/superpowers) - Composable plugin with auto-triggering skills for TDD, brainstorming, plan-then-execute, subagent-driven development, parallel agent dispatch, and code review loops. Includes hooks for session-start and verification gates. 20K stars.
-- [Solopreneur Plugin](https://github.com/codeislaw1993/solopreneur-plugin) - Turns Claude into a virtual company with 6 specialist agents (engineer, designer, QA, researcher, bizops, content strategist). Full product lifecycle: discover → spec → backlog → design → build → review → ship. Includes decision journal and observer protocol.
+- [Solopreneur Plugin](https://github.com/codeislaw1993/solopreneur-plugin) - Turns Claude into a virtual company with 6 agents, 16 skills, 1 hooks.json, 2 .mcp.json configs, and a CLAUDE.md. Full product lifecycle: discover → spec → backlog → design → build → review → ship. Includes decision journal and observer protocol. Codex-verified counts.
 - [OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) - Battle-tested workflows from an AI-native startup's heavy daily Claude Code usage since launch. 3,734 stars.
 - [claude-forge](https://github.com/sangrokjung/claude-forge) - oh-my-zsh-inspired plugin framework with 11 AI agents, 36 commands, 15 skills, and 6-layer security hooks. 593 stars.
 
@@ -110,7 +110,7 @@ Workflows that combine Claude Code with other AI models for multi-perspective de
 Workflows for market research, codebase exploration, and knowledge gathering.
 
 - [Everything Claude Code search-first](https://github.com/nicholasareed/everything-claude-code) - Research before coding — agent searches codebase, docs, and web before writing any code.
-- [Autoresearch autonomous loop](https://github.com/karpathy/autoresearch) - Karpathy's autonomous AI research agent: modify code → train for 5 min → evaluate → keep/discard → repeat.
+- [Autoresearch autonomous loop](https://github.com/karpathy/autoresearch) - Karpathy's autonomous AI research agent: modify code → train for 5 min → evaluate → keep/discard → repeat. Only 10 files — intentionally minimal. program.md is 114 lines of substantive instructions. Codex-verified.
 - [Everything Claude Code continuous learning](https://github.com/nicholasareed/everything-claude-code) - Auto-extracts patterns from coding sessions into reusable skills. The agent learns from its own work.
 
 ## Browser and Testing
@@ -125,7 +125,7 @@ Workflows that combine browser automation with Claude Code for testing and data 
 
 Workflows for content creation, social media posting, and distribution.
 
-- [Agency Agents marketing suite](https://github.com/AidenYangX/agency-agents) - 144+ agent personas including 30+ marketing specialists (SEO, Reddit, TikTok, content strategy). Install script converts to Claude Code, Cursor, or Copilot format. 15K stars.
+- [Agency Agents marketing suite](https://github.com/msitarzewski/agency-agents) - 156 agent persona files across 13 categories including marketing, engineering, design, sales, and more. Install script converts to Claude Code, Cursor, or Copilot format. By Michael Sitarzewski. Codex-verified counts. 15K stars.
 - [OPC Skills solopreneur marketing](https://github.com/leoncvlt/opc-skills) - 10 standalone skills for solopreneurs: SEO/GEO optimization, Reddit research, Product Hunt search, domain hunting, logo creation, banner creation. 612 stars.
 - [Everything Claude Code content engine](https://github.com/nicholasareed/everything-claude-code) - Skills for article writing, market research, and investor materials.
 
@@ -134,7 +134,7 @@ Workflows for content creation, social media posting, and distribution.
 Complete systems that use Claude Code as the operating layer for running a business.
 
 - [Founder OS](https://github.com/danielraffel/founder-os) - Queue-based markdown OS: autonomous task processing, research pipelines, institutional memory, context budgeting, goal-backward verification. Everything is markdown files — zero infrastructure.
-- [BOS-AI](https://github.com/SynapticAGI/BOS-AI) - Business Operating System with 30 agents across 10 categories, missions (pre-configured workflow templates), and the Business Chassis formula.
+- [BOS-AI](https://github.com/SynapticAGI/BOS-AI) - Business Operating System with 42 agents, 17 commands, 183 missions across business domains, 3 CLAUDE.md files, and the Business Chassis formula. By Jamie (TheWayWithin). Codex-verified counts.
 - [ABF (Agentic Business Framework)](https://github.com/agent-business-framework/abf) - Full TypeScript runtime for agent-as-employee companies. Seed-to-company pipeline: upload business plan → LLM generates agent team + workflows. YAML workflow definitions, approval queues, behavioral bounds.
 
 ## Autonomous Loops
