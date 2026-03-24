@@ -98,7 +98,7 @@ Workflows that automate git operations, branching strategies, and pull request m
 Workflows for publishing packages, deploying applications, and monitoring releases.
 
 - [gstack canary deploy](https://github.com/garrytan/gstack) - Post-deploy monitoring loop that watches for errors after canary release. Chains deploy → monitor → rollback-if-needed.
-- [MCP listing pipeline](https://github.com/mcpware/claude-code-organizer) - End-to-end MCP server publishing: npm publish → GitHub Actions CI/CD → Glama registry → mcp.so → Official MCP Registry → Plugin Marketplace.
+
 
 ## Cross-LLM Collaboration
 
