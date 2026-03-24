@@ -123,8 +123,8 @@ Workflows for market research, codebase exploration, and knowledge gathering.
 Workflows that combine browser automation with Claude Code for testing and data gathering.
 
 - [gstack browser QA](https://github.com/garrytan/gstack) - Opens real web pages via Playwright, takes screenshots, validates UI against acceptance criteria.
-- [UI Annotator + Claude Code](https://github.com/mcpware/ui-annotator-mcp) - Annotate any web page with hover labels, then tell Claude which element to change by name. Combines MCP server (reverse proxy) with Claude Code conversation. Zero extensions, any browser.
-- [Pagecast demo recording](https://github.com/mcpware/pagecast) - Record browser sessions as GIF/WebM/MP4 via MCP. Tell Claude what to demo, it opens a browser, performs actions, and exports the recording.
+- [UI Annotator + Claude Code](https://github.com/mcpware/ui-annotator-mcp) - During development, effectively communicate UI changes to AI by annotating any web page with hover labels — point at elements by name instead of describing CSS selectors. Claude sees what you see, then edits the right component. Zero extensions, any browser.
+- [Pagecast demo recording](https://github.com/mcpware/pagecast) - After shipping a feature or repo, AI reads your codebase (README, components) to decide what to demo, then opens a browser, performs the interactions, and records with tooltip zoom overlays that auto-magnify each action. Exports to GIF/MP4 ready for README or product page. Full workflow: `record_page` → `interact_page` → `stop_recording` → `smart_export`.
 
 ## Marketing and Content
 
