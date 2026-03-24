@@ -46,6 +46,7 @@ Workflows that structure the development cycle into distinct planning, building,
 - [Spec-Flow](https://github.com/marcusgoll/Spec-Flow) - Turn product ideas into production launches with spec-driven development, repeatable workflows with quality gates, token budgets, and auditable artifacts. 73 stars.
 - [Solopreneur sprint](https://github.com/pcatattacks/solopreneur-plugin) - Parallel feature building with isolated git branches per feature, auto git checkpointing after every skill completion, and agent team kickoff meetings where agents debate approach.
 - [gmickel-claude-marketplace](https://github.com/gmickel/gmickel-claude-marketplace) - Plan-first workflows (Flow-Next), Ralph autonomous mode for overnight coding, multi-model review gates, re-anchoring to prevent drift, receipt-based gating. 548 stars.
+- [shinpr/claude-code-workflows](https://github.com/shinpr/claude-code-workflows) - Production-ready dev workflows with specialized AI agents. Includes frontend plugin with React-specific agents (component architecture, Testing Library, TypeScript-first quality checks) and UI Spec generation.
 
 ## Multi-Agent Orchestration
 
@@ -59,6 +60,7 @@ Workflows that coordinate multiple AI agents working in parallel or sequence.
 - [catlog22/Claude-Code-Workflow](https://github.com/catlog22/Claude-Code-Workflow) - JSON-driven multi-agent cadence-team development framework with intelligent CLI orchestration (Gemini/Qwen/Codex), context-first architecture. 1,555 stars.
 - [agent-council](https://github.com/team-attention/agent-council) - Multi-agent collaboration plugin orchestrating multiple AI agents (Codex CLI, Gemini CLI) for diverse perspectives on the same task. 118 stars.
 - [Solopreneur kickoff](https://github.com/pcatattacks/solopreneur-plugin) - Agent team meetings where 6 specialist agents debate approach before building.
+- [wshobson/agents](https://github.com/wshobson/agents) - Intelligent automation and multi-agent orchestration for Claude Code with specialized agent roles and coordinated task execution.
 
 ## Context and Memory Management
 
@@ -70,6 +72,7 @@ Workflows for managing Claude Code's context window, memory persistence, and ses
 - [Claude Code Development Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit) - Handle context at scale with custom workflows combining hooks, MCP, and sub-agents working together. 1,330 stars.
 - [runesleo/claude-code-workflow](https://github.com/runesleo/claude-code-workflow) - Battle-tested template for memory management, context engineering, and task routing from 3 months of daily usage. 521 stars.
 - [cartographer](https://github.com/kingbootoshi/cartographer) - Plugin that maps and documents codebases of any size using parallel AI subagents. 522 stars.
+- [vinicius91carvalho/.claude](https://github.com/vinicius91carvalho/.claude) - Portable workflow system with hooks, agents, skills, and enforcement. Drop-in `.claude/` directory that brings structured context management to any project.
 
 ## TDD and Code Quality
 
@@ -80,6 +83,7 @@ Workflows that enforce test-driven development and automated code quality checks
 - [gstack QA](https://github.com/garrytan/gstack) - Browser-based QA that opens real pages with Playwright, takes screenshots, and validates against acceptance criteria.
 - [Superpowers code review loop](https://github.com/obra/superpowers) - Two-skill combo: `/requesting-code-review` prepares the request, `/receiving-code-review` processes feedback. Uses a dedicated code-reviewer agent.
 - [claude-pipeline](https://github.com/aaddrick/claude-pipeline) - Portable multi-agent pipeline with skills, agents, hooks, orchestration scripts, and quality gates. 97 stars.
+- [glebis/claude-skills TDD](https://github.com/glebis/claude-skills) - Multi-agent TDD orchestration with architecturally enforced context isolation via Claude Code's Task tool. Interactive mode pauses at each RED checkpoint; autonomous mode runs all slices end-to-end.
 
 ## Git and PR Automation
 
@@ -112,6 +116,7 @@ Workflows for market research, codebase exploration, and knowledge gathering.
 - [Everything Claude Code search-first](https://github.com/affaan-m/everything-claude-code) - Research before coding — agent searches codebase, docs, and web before writing any code.
 - [Autoresearch autonomous loop](https://github.com/karpathy/autoresearch) - Karpathy's autonomous AI research agent: modify code → train for 5 min → evaluate → keep/discard → repeat. Only 10 files — intentionally minimal. program.md is 114 lines of substantive instructions. Codex-verified.
 - [Everything Claude Code continuous learning](https://github.com/affaan-m/everything-claude-code) - Auto-extracts patterns from coding sessions into reusable skills. The agent learns from its own work.
+- [glebis/claude-skills deep-research](https://github.com/glebis/claude-skills) - Multi-tool research orchestration combining OpenAI, Firecrawl, and web scraping with structured output. Includes insight-extractor that parses Claude Code's `/insights` into actionable markdown files.
 
 ## Browser and Testing
 
@@ -150,6 +155,7 @@ Workflows for managing Claude Code's own configuration across scopes.
 
 - [Claude Code Organizer](https://github.com/mcpware/claude-code-organizer) - Web dashboard + MCP server that scans `~/.claude/`, shows scope hierarchy (Global → Workspace → Project), and lets you drag-and-drop config between scopes. 4 MCP tools for programmatic scope management.
 - [gstack freeze/guard/unfreeze](https://github.com/garrytan/gstack) - File protection system using `PreToolUse` hook definitions in SKILL.md frontmatter with real shell scripts. Note: enforcement only works in Claude Code — Codex/non-Claude versions are advisory prose only. No hooks.json file exists.
+- [claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory) - Toolkit for building and deploying production-ready Claude Skills, agents, slash commands, and LLM prompts at scale. Generates structured skill templates with 7 hook event types and safety validation.
 
 ## Monitoring and Dashboards
 
@@ -167,6 +173,11 @@ All-in-one frameworks that bundle skills, hooks, agents, and commands into a sin
 - [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) - Comprehensive project config combining hooks, skills, agents, commands, and GitHub Actions workflows. 5,571 stars.
 - [claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) - 340 plugins + 1,367 agent skills with CCPI package manager, interactive tutorials, and production orchestration patterns. 1,689 stars.
 - [CloudAI-X/claude-workflow-v2](https://github.com/CloudAI-X/claude-workflow-v2) - Universal Claude Code workflow plugin with agents, skills, hooks, and commands combined into one installable package. 1,301 stars.
+- [JalelTounsi/claude-code-skills](https://github.com/JalelTounsi/claude-code-skills) - 138 skills, 36 slash commands, 30 hooks covering the full software lifecycle. Stack-agnostic with auto-detection. Includes 6 mandatory security hooks (secret scanning, destructive command blocking) and tiered skill recommendations.
+- [jezweb/claude-skills](https://github.com/jezweb/claude-skills) - 10 plugins, 59 production workflow skills. Plugin marketplace model (`/plugin install cloudflare@jezweb-skills`). Core principle: "every skill must produce something" — no knowledge dumps, only workflow recipes that create files and projects. v12+.
+- [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) - 192+ skills & agent plugins working across Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents. 268 stdlib-only Python CLI scripts. Covers engineering, marketing, product, compliance, and C-level advisory.
+- [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) - Trending on GitHub March 2026. Interactive examples of Command → Agent → Skill pattern with orchestration workflows. Organized as a learning path with reports, prompting guides, and battle-tested best practices.
+- [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) - Visual 10-module tutorial guide with copy-paste configs for slash commands, hooks, skills, subagents, and MCP. Structured learning path from beginner (~2.5h) to advanced (~5h). Production-ready templates you can use immediately.
 
 ---
 
@@ -176,6 +187,7 @@ All-in-one frameworks that bundle skills, hooks, agents, and commands into a sin
 - [awesome-claude-code-hooks](https://github.com/ithiria894/awesome-claude-code-hooks) - Curated collection of Claude Code hooks for event-driven automation.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - The definitive list of MCP servers. 83K stars.
 - [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) - Claude Code skills collection. 47K stars.
+- [awesome-claude-skills (travisvn)](https://github.com/travisvn/awesome-claude-skills) - Another curated Claude Code skills list with different curation focus.
 - [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) - Vibe coding tools and resources. 3.6K stars.
 
 ## Contributing
