@@ -155,6 +155,7 @@ Workflows for managing Claude Code's own configuration across scopes.
 
 - [Claude Code Organizer](https://github.com/mcpware/claude-code-organizer) - Web dashboard + MCP server that scans `~/.claude/`, shows scope hierarchy (Global → Workspace → Project), and lets you drag-and-drop config between scopes. 4 MCP tools for programmatic scope management.
 - [gstack freeze/guard/unfreeze](https://github.com/garrytan/gstack) - File protection system using `PreToolUse` hook definitions in SKILL.md frontmatter with real shell scripts. Note: enforcement only works in Claude Code — Codex/non-Claude versions are advisory prose only. No hooks.json file exists.
+- [agent-skill-manager (asm)](https://github.com/luongnv89/asm) - Universal CLI/TUI for managing AI agent skills across 17 providers (Claude Code, Codex, Cursor, Windsurf, and more). Install from GitHub, security scan before install, detect duplicates, and audit skills across all agents from one tool. Online catalog with 2,800+ searchable skills.
 - [claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory) - Toolkit for building and deploying production-ready Claude Skills, agents, slash commands, and LLM prompts at scale. Generates structured skill templates with 7 hook event types and safety validation.
 
 ## Monitoring and Dashboards
@@ -162,6 +163,7 @@ Workflows for managing Claude Code's own configuration across scopes.
 Workflows for tracking Claude Code activity and visualizing progress.
 
 - [claude-hud](https://github.com/jarrodwatts/claude-hud) - Plugin that shows real-time context usage, active tools, running agents, and todo progress as a dashboard overlay. 11,537 stars.
+- [cc-context-stats](https://github.com/luongnv89/cc-context-stats) - Real-time Model Intelligence (MI) score in your status bar — calibrated from Anthropic's MRCR benchmark per model (Opus/Sonnet/Haiku). Live ASCII dashboard tracks context growth, MI degradation, and token I/O. Five color-coded zones tell you when to plan, when to code-only, and when to start fresh. Python, Node.js, and Bash implementations.
 - [ccproxy](https://github.com/starbaser/ccproxy) - Proxy that hooks into Claude Code requests for intelligent model routing, request/response modification, and LangFuse tracking. 189 stars.
 
 ## Comprehensive Frameworks
