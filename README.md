@@ -165,6 +165,7 @@ Workflows for tracking Claude Code activity and visualizing progress.
 - [claude-hud](https://github.com/jarrodwatts/claude-hud) - Plugin that shows real-time context usage, active tools, running agents, and todo progress as a dashboard overlay. 11,537 stars.
 - [cc-context-stats](https://github.com/luongnv89/cc-context-stats) - Real-time Model Intelligence (MI) score in your status bar — calibrated from Anthropic's MRCR benchmark per model (Opus/Sonnet/Haiku). Live ASCII dashboard tracks context growth, MI degradation, and token I/O. Five color-coded zones tell you when to plan, when to code-only, and when to start fresh. Python, Node.js, and Bash implementations.
 - [ccproxy](https://github.com/starbaser/ccproxy) - Proxy that hooks into Claude Code requests for intelligent model routing, request/response modification, and LangFuse tracking. 189 stars.
+- [claude-dash](https://github.com/krabat-l/claude-dash) - Real-time statusline showing context health, cost tracking, quota usage, cache efficiency, tool activity, and git status. Component-based architecture with 5 themes, zero npm dependencies.
 
 ## Comprehensive Frameworks
 
