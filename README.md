@@ -178,6 +178,8 @@ All-in-one frameworks that bundle skills, hooks, agents, and commands into a sin
 - [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) - Trending on GitHub March 2026. Interactive examples of Command → Agent → Skill orchestration pattern. Shows how to chain commands into multi-step workflows with reports and verification gates.
 - [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) - Visual 10-module guide showing how to combine slash commands + hooks + skills + subagents + MCP into end-to-end workflows. Copy-paste templates for automated code review, CI/CD automation, and security audit pipelines.
 
+- [AuraKit](https://github.com/smorky850612/Aurakit) - All-in-one fullstack skill: 46 modes (BUILD/FIX/CLEAN/DEPLOY/REVIEW/TDD/QA/DEBUG/PAYMENT), 23 sub-agents, 6-layer security (OWASP+), 10 hooks, 8 languages, ~55% token savings. One /aura command for the entire dev lifecycle. Install: `npx @smorky85/aurakit`
+
 ---
 
 ## Related Awesome Lists
