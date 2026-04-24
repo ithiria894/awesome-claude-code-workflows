@@ -73,6 +73,7 @@ Workflows for managing Claude Code's context window, memory persistence, and ses
 - [runesleo/claude-code-workflow](https://github.com/runesleo/claude-code-workflow) - Battle-tested template for memory management, context engineering, and task routing from 3 months of daily usage. 521 stars.
 - [cartographer](https://github.com/kingbootoshi/cartographer) - Plugin that maps and documents codebases of any size using parallel AI subagents. 522 stars.
 - [vinicius91carvalho/.claude](https://github.com/vinicius91carvalho/.claude) - Portable workflow system with hooks, agents, skills, and enforcement. Drop-in `.claude/` directory that brings structured context management to any project.
+- [ccthread](https://github.com/jakemarsh/ccthread) - Plugin + CLI that reads conversation logs from `~/.claude/projects/` and turns them into clean markdown. `ccthread show current --before-last-compact` recovers what the agent said before the context window got compacted.
 
 ## TDD and Code Quality
 
