@@ -133,6 +133,8 @@ Workflows for content creation, social media posting, and distribution.
 - [Agency Agents marketing suite](https://github.com/msitarzewski/agency-agents) - 156 agent persona files across 13 categories including marketing, engineering, design, sales, and more. Install script converts to Claude Code, Cursor, or Copilot format. By Michael Sitarzewski. Codex-verified counts. 15K stars.
 - [OPC Skills solopreneur marketing](https://github.com/ReScienceLab/opc-skills) - 10 standalone skills for solopreneurs: SEO/GEO optimization, Reddit research, Product Hunt search, domain hunting, logo creation, banner creation. 612 stars.
 - [Everything Claude Code content engine](https://github.com/affaan-m/everything-claude-code) - Skills for article writing, market research, and investor materials.
+- [unslop](https://github.com/MohamedAbdallah-14/unslop) - CLI and Claude Code plugin that strips AI writing patterns before publishing: sycophantic openers, stock vocabulary (leverage, streamline, robust), hedging stacks, em-dash overuse. Code blocks, URLs, and technical terms pass through unchanged. Pipe mode for scripting: `cat draft.md | unslop --stdin`. npm: `unslop`.
+- [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates production-ready visual assets (app icons, favicons, OG images, logos, wordmarks) by routing prompts across 30+ image generation models. Zero API key required for first run via free tiers. npm: `prompt-to-asset`.
 
 ## Business Operating Systems
 
