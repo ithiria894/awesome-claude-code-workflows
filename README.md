@@ -158,7 +158,7 @@ Workflows for managing Claude Code's own configuration across scopes.
 - [agent-skill-manager (asm)](https://github.com/luongnv89/asm) - Universal CLI/TUI for managing AI agent skills across 17 providers (Claude Code, Codex, Cursor, Windsurf, and more). Install from GitHub, security scan before install, detect duplicates, and audit skills across all agents from one tool. Online catalog with 2,800+ searchable skills.
 - [claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory) - Toolkit for building and deploying production-ready Claude Skills, agents, slash commands, and LLM prompts at scale. Generates structured skill templates with 7 hook event types and safety validation.
 
-- [EnigmAgent](https://github.com/Agnuxo1/EnigmAgent) — Encrypted credential vault MCP. Resolves `{{PLACEHOLDER}}` secrets at runtime, keeping API keys out of all Claude Code prompts and workflows. AES-256-GCM + Argon2id. `npx enigmagent-mcp`
+- [EnigmAgent](https://github.com/Agnuxo1/EnigmAgent) — Encrypted credential vault MCP. Resolves `{{PLACEHOLDER}}` secrets at runtime, helping reduce the risk of API keys appearing in Claude Code prompts and workflows. AES-256-GCM + Argon2id. `npx enigmagent-mcp`
 
 ## Monitoring and Dashboards
 
