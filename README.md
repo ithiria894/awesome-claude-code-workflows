@@ -84,6 +84,7 @@ Workflows that enforce test-driven development and automated code quality checks
 - [Superpowers code review loop](https://github.com/obra/superpowers) - Two-skill combo: `/requesting-code-review` prepares the request, `/receiving-code-review` processes feedback. Uses a dedicated code-reviewer agent.
 - [claude-pipeline](https://github.com/aaddrick/claude-pipeline) - Portable multi-agent pipeline with skills, agents, hooks, orchestration scripts, and quality gates. 97 stars.
 - [glebis/claude-skills TDD](https://github.com/glebis/claude-skills) - Multi-agent TDD orchestration with architecturally enforced context isolation via Claude Code's Task tool. Interactive mode pauses at each RED checkpoint; autonomous mode runs all slices end-to-end.
+- [claude-verify-before-stop](https://github.com/ianymu/claude-verify-before-stop) - Stop hook that blocks session end if files changed but no verification log entry exists in the last 5 minutes. Forces the agent to either prove it verified (tests/curl/playwright/psql) or admit it didn't — kills "lies of completion" like *"All tests passing ✅"* when they aren't. Pure bash, zero deps.
 
 ## Git and PR Automation
 
