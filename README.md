@@ -180,6 +180,12 @@ All-in-one frameworks that bundle skills, hooks, agents, and commands into a sin
 
 ---
 
+## Web3 and Agent Payments
+
+Workflows that integrate decentralized payment protocols and on-chain trust verification into Claude Code agent pipelines.
+
+- [TWZRD Agent Intel](https://github.com/twzrd-sol/wzrd-final) - Solana-native trust scoring MCP server with x402 payment receipts. Agents call the free preflight endpoint to score a counterparty, then pay for a signed V5 trust receipt via x402. Streamable-HTTP at https://intel.twzrd.xyz/mcp — add to `.mcp.json` to gate Claude Code workflows on agent trust scores.
+
 ## Related Awesome Lists
 
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - Comprehensive catalog of Claude Code tools, skills, hooks, agents, and plugins. 30K stars.
