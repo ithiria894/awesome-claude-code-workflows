@@ -117,6 +117,7 @@ Workflows for market research, codebase exploration, and knowledge gathering.
 - [Autoresearch autonomous loop](https://github.com/karpathy/autoresearch) - Karpathy's autonomous AI research agent: modify code → train for 5 min → evaluate → keep/discard → repeat. Only 10 files — intentionally minimal. program.md is 114 lines of substantive instructions. Codex-verified.
 - [Everything Claude Code continuous learning](https://github.com/affaan-m/everything-claude-code) - Auto-extracts patterns from coding sessions into reusable skills. The agent learns from its own work.
 - [glebis/claude-skills deep-research](https://github.com/glebis/claude-skills) - Multi-tool research orchestration combining OpenAI, Firecrawl, and web scraping with structured output. Includes insight-extractor that parses Claude Code's `/insights` into actionable markdown files.
+- [Helium MCP](https://github.com/connerlambden/helium-mcp) — Real-time news with 37-dimension bias scoring, ML options pricing, and live market data. [Interactive demo](https://connerlambden.github.io/helium-news-explorer/) · [REST API](https://heliumtrades.com/mcp-page/)
 
 ## Browser and Testing
 
