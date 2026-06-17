@@ -177,6 +177,7 @@ All-in-one frameworks that bundle skills, hooks, agents, and commands into a sin
 - [CloudAI-X/claude-workflow-v2](https://github.com/CloudAI-X/claude-workflow-v2) - Universal Claude Code workflow plugin with agents, skills, hooks, and commands combined into one installable package. 1,301 stars.
 - [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) - Trending on GitHub March 2026. Interactive examples of Command → Agent → Skill orchestration pattern. Shows how to chain commands into multi-step workflows with reports and verification gates.
 - [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) - Visual 10-module guide showing how to combine slash commands + hooks + skills + subagents + MCP into end-to-end workflows. Copy-paste templates for automated code review, CI/CD automation, and security audit pipelines.
+- [Agentlas Hephaestus](https://github.com/agentlas-ai/Hephaestus) - Open Agent OS for Claude Code, Codex, and Cursor combining agent and skill packaging, MCP Hub fallback, local routing, memory, and security gates.
 
 ---
 
