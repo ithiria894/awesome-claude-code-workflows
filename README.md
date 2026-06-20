@@ -61,6 +61,7 @@ Workflows that coordinate multiple AI agents working in parallel or sequence.
 - [agent-council](https://github.com/team-attention/agent-council) - Multi-agent collaboration plugin orchestrating multiple AI agents (Codex CLI, Gemini CLI) for diverse perspectives on the same task. 118 stars.
 - [Solopreneur kickoff](https://github.com/pcatattacks/solopreneur-plugin) - Agent team meetings where 6 specialist agents debate approach before building.
 - [wshobson/agents](https://github.com/wshobson/agents) - Intelligent automation and multi-agent orchestration for Claude Code with specialized agent roles and coordinated task execution.
+- [ClaudeCodeManual](https://github.com/NickScherbakov/ClaudeCodeManual) - Codebase audit workflow using pipeline() + nested parallel() adversarial-verify: three finders run in parallel, per-finding skeptic agent defaults to refuted, severity-ordered JSON report. Includes quick-demo (parallel search + verify in 30 seconds), 15-chapter Russian-language course, and 14 labs with reference solutions.
 
 ## Context and Memory Management
 
