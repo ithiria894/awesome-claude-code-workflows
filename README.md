@@ -59,6 +59,7 @@ Workflows that coordinate multiple AI agents working in parallel or sequence.
 - [Everything Claude Code orchestrate](https://github.com/affaan-m/everything-claude-code) - Multi-agent orchestration command that coordinates agents across different roles. Found in `commands/orchestrate.md`.
 - [catlog22/Claude-Code-Workflow](https://github.com/catlog22/Claude-Code-Workflow) - JSON-driven multi-agent cadence-team development framework with intelligent CLI orchestration (Gemini/Qwen/Codex), context-first architecture. 1,555 stars.
 - [agent-council](https://github.com/team-attention/agent-council) - Multi-agent collaboration plugin orchestrating multiple AI agents (Codex CLI, Gemini CLI) for diverse perspectives on the same task. 118 stars.
+- [ai-meeting-skill](https://github.com/bin1874/ai-meeting-skill) - Runs structured multi-agent AI meetings for proposal reviews and technical decisions, combining a Claude Code skill, CLI orchestration, Codex/Claude provider adapters, persisted agent sessions, and sourced final reports. 0 stars.
 - [Solopreneur kickoff](https://github.com/pcatattacks/solopreneur-plugin) - Agent team meetings where 6 specialist agents debate approach before building.
 - [wshobson/agents](https://github.com/wshobson/agents) - Intelligent automation and multi-agent orchestration for Claude Code with specialized agent roles and coordinated task execution.
 
