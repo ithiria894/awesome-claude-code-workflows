@@ -73,6 +73,7 @@ Workflows for managing Claude Code's context window, memory persistence, and ses
 - [runesleo/claude-code-workflow](https://github.com/runesleo/claude-code-workflow) - Battle-tested template for memory management, context engineering, and task routing from 3 months of daily usage. 521 stars.
 - [cartographer](https://github.com/kingbootoshi/cartographer) - Plugin that maps and documents codebases of any size using parallel AI subagents. 522 stars.
 - [vinicius91carvalho/.claude](https://github.com/vinicius91carvalho/.claude) - Portable workflow system with hooks, agents, skills, and enforcement. Drop-in `.claude/` directory that brings structured context management to any project.
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates + 5 Claude Code skills for giving AI agents deep personal context. MIT, one-command install.
 
 ## TDD and Code Quality
 
