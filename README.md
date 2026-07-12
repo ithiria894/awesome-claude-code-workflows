@@ -92,6 +92,7 @@ Workflows that automate git operations, branching strategies, and pull request m
 - [Superpowers git worktrees](https://github.com/obra/superpowers) - Run parallel workstreams using git worktrees — each agent works in its own isolated copy of the repo.
 - [gstack ship pipeline](https://github.com/garrytan/gstack) - Full deploy pipeline: merge PR → deploy → post-deploy monitoring loop. Chains `/ship` → `/land-and-deploy` → `/canary` skills.
 - [Autoresearch branch-per-run](https://github.com/karpathy/autoresearch) - Creates a new git branch for each autonomous experiment run, tracks results in `results.tsv`, keeps or discards based on evaluation.
+- [Keep a Pull Request Green](https://loopengineering.pro/blog/build-your-first-agent-loop) - Keeps one pull request healthy with a project loop prompt, scheduled `/loop` checks, a blocking `Stop` hook evaluator, bounded repair attempts, and a human merge decision.
 
 ## Ship and Deploy
 
