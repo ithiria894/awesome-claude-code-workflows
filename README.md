@@ -61,6 +61,7 @@ Workflows that coordinate multiple AI agents working in parallel or sequence.
 - [agent-council](https://github.com/team-attention/agent-council) - Multi-agent collaboration plugin orchestrating multiple AI agents (Codex CLI, Gemini CLI) for diverse perspectives on the same task. 118 stars.
 - [Solopreneur kickoff](https://github.com/pcatattacks/solopreneur-plugin) - Agent team meetings where 6 specialist agents debate approach before building.
 - [wshobson/agents](https://github.com/wshobson/agents) - Intelligent automation and multi-agent orchestration for Claude Code with specialized agent roles and coordinated task execution.
+- [batch-fix-bugs](https://github.com/DonChengCheng/batch-fix-bugs) - Each bug gets its own git worktree and fix agent, then an independent reviewer re-reads the original issue and argues against the diff. Three-way verdicts (pass / needs-human / reject), nothing auto-committed — output is a triage report for a human.
 
 ## Context and Memory Management
 
