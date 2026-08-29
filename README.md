@@ -61,6 +61,7 @@ Workflows that coordinate multiple AI agents working in parallel or sequence.
 - [agent-council](https://github.com/team-attention/agent-council) - Multi-agent collaboration plugin orchestrating multiple AI agents (Codex CLI, Gemini CLI) for diverse perspectives on the same task. 118 stars.
 - [Solopreneur kickoff](https://github.com/pcatattacks/solopreneur-plugin) - Agent team meetings where 6 specialist agents debate approach before building.
 - [wshobson/agents](https://github.com/wshobson/agents) - Intelligent automation and multi-agent orchestration for Claude Code with specialized agent roles and coordinated task execution.
+- [Backbrief Kit](https://github.com/charlesashe/backbrief-kit) - Orchestrator decomposes a goal into units and routes each to a specialist agent, then a separate verifier re-reads the finished artifact in fresh context against its acceptance criteria before it is called done. Combines subagents + slash commands + shared rules every agent obeys + an opt-in SessionStart hook that re-injects the newest handoff brief and decision-log tail after startup, /clear, and compaction.
 
 ## Context and Memory Management
 
