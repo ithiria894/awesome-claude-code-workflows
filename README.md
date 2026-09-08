@@ -68,6 +68,7 @@ Workflows for managing Claude Code's context window, memory persistence, and ses
 
 - [claude-mem](https://github.com/thedotmack/claude-mem) - Plugin that auto-captures everything Claude does, compresses it with AI via Agent SDK, and injects relevant context back into future sessions. 39,615 stars.
 - [Continuous Claude v3](https://github.com/parcadei/Continuous-Claude-v3) - Context management via hooks that maintain state through ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows. 3,619 stars.
+- [Wayfinder](https://github.com/WBXWHT/wayfinder) - Captures prompts, tool activity, file changes, validation evidence, and user verdicts through Claude Code hooks, then combines a bundled skill with a read-only MCP App to turn each session into a branching voyage map for failure diagnosis and reuse.
 - [arscontexta](https://github.com/agenticnotetaking/arscontexta) - Plugin that generates individualized knowledge systems from conversation — you describe how you think, and get a complete second brain as markdown files. 2,824 stars.
 - [Claude Code Development Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit) - Handle context at scale with custom workflows combining hooks, MCP, and sub-agents working together. 1,330 stars.
 - [runesleo/claude-code-workflow](https://github.com/runesleo/claude-code-workflow) - Battle-tested template for memory management, context engineering, and task routing from 3 months of daily usage. 521 stars.
