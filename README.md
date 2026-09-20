@@ -157,6 +157,7 @@ Workflows for managing Claude Code's own configuration across scopes.
 - [gstack freeze/guard/unfreeze](https://github.com/garrytan/gstack) - File protection system using `PreToolUse` hook definitions in SKILL.md frontmatter with real shell scripts. Note: enforcement only works in Claude Code — Codex/non-Claude versions are advisory prose only. No hooks.json file exists.
 - [agent-skill-manager (asm)](https://github.com/luongnv89/asm) - Universal CLI/TUI for managing AI agent skills across 17 providers (Claude Code, Codex, Cursor, Windsurf, and more). Install from GitHub, security scan before install, detect duplicates, and audit skills across all agents from one tool. Online catalog with 2,800+ searchable skills.
 - [claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory) - Toolkit for building and deploying production-ready Claude Skills, agents, slash commands, and LLM prompts at scale. Generates structured skill templates with 7 hook event types and safety validation.
+- [claude-code-starter-kit](https://github.com/p32929/claude-code-starter-kit) - Drop-in `.claude/` config: two `PreToolUse` guard hooks in plain bash that block `rm -rf /`, `git reset --hard`, `git clean -fd`, force-push to `main`, `DROP TABLE`, `DELETE` with no `WHERE`, and any read or write of `.env` / `id_rsa` / `*.pem` / `.aws/credentials`. Ships with 3 subagents, 3 slash commands, a CLAUDE.md template, and the two commands to verify the hooks actually fire. No dependencies beyond `python3`.
 
 ## Monitoring and Dashboards
 
