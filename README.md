@@ -47,6 +47,7 @@ Workflows that structure the development cycle into distinct planning, building,
 - [Solopreneur sprint](https://github.com/pcatattacks/solopreneur-plugin) - Parallel feature building with isolated git branches per feature, auto git checkpointing after every skill completion, and agent team kickoff meetings where agents debate approach.
 - [gmickel-claude-marketplace](https://github.com/gmickel/gmickel-claude-marketplace) - Plan-first workflows (Flow-Next), Ralph autonomous mode for overnight coding, multi-model review gates, re-anchoring to prevent drift, receipt-based gating. 548 stars.
 - [shinpr/claude-code-workflows](https://github.com/shinpr/claude-code-workflows) - Production-ready dev workflows with specialized AI agents. Includes frontend plugin with React-specific agents (component architecture, Testing Library, TypeScript-first quality checks) and UI Spec generation.
+- [FRAME](https://github.com/andrey-chmerev/the-frame-ai) - Research → Plan → Build → Review → Ship → Reflect pipeline for solo developers, combining 33 slash commands, agents, and safety hooks. `/frame:auto` runs the full cycle unattended, features are isolated in git worktrees, and state persists in `.planning/` files (STATE.md, specs, audit reports, memory) across sessions. Includes a 12-category audit.
 
 ## Multi-Agent Orchestration
 
