@@ -147,6 +147,7 @@ Complete systems that use Claude Code as the operating layer for running a busin
 Workflows where Claude Code runs continuously without human intervention.
 
 - [Everything Claude Code autonomous loops](https://github.com/affaan-m/everything-claude-code) - Start and manage autonomous agent loops that keep running until a goal is met. Commands: `/loop-start`, `/loop-status`.
+- [goalpost](https://github.com/syntaxixr/goalpost) - Keeps the built-in `/goal` running until it is really done: hooks freeze the goal into a spec of checkable criteria, block the stop until every automated criterion has a fresh passing check (manual criteria are judged by the auditor), protect existing tests by default (declared changes are allowed and reviewed; shell-write detection is best effort), and a fresh-eyes auditor agent reviews the result before the goal can end. Hooks + skills + agent, benchmarked on 33 runs with hidden graders.
 - [Autoresearch experiment loop](https://github.com/karpathy/autoresearch) - Agent autonomously modifies code, runs 5-minute experiments, evaluates results, and repeats. No human in the loop during runs.
 
 ## Scope and Config Management
