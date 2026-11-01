@@ -133,6 +133,7 @@ Workflows for content creation, social media posting, and distribution.
 - [Agency Agents marketing suite](https://github.com/msitarzewski/agency-agents) - 156 agent persona files across 13 categories including marketing, engineering, design, sales, and more. Install script converts to Claude Code, Cursor, or Copilot format. By Michael Sitarzewski. Codex-verified counts. 15K stars.
 - [OPC Skills solopreneur marketing](https://github.com/ReScienceLab/opc-skills) - 10 standalone skills for solopreneurs: SEO/GEO optimization, Reddit research, Product Hunt search, domain hunting, logo creation, banner creation. 612 stars.
 - [Everything Claude Code content engine](https://github.com/affaan-m/everything-claude-code) - Skills for article writing, market research, and investor materials.
+- [Mach GTM MCP](https://github.com/verma6uc/mach-gtm-mcp) - Open-source MCP server (`npx mach-gtm-mcp`) for B2B outbound sales: build ICPs, research prospects with verified buying signals, score leads (0-100), draft personalised cold emails and LinkedIn messages (1-3-1 framework), and generate multi-touch sequences. Human approval required before any message is sent.
 
 ## Business Operating Systems
 
