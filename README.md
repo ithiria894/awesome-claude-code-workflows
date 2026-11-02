@@ -84,7 +84,7 @@ Workflows that enforce test-driven development and automated code quality checks
 - [Superpowers code review loop](https://github.com/obra/superpowers) - Two-skill combo: `/requesting-code-review` prepares the request, `/receiving-code-review` processes feedback. Uses a dedicated code-reviewer agent.
 - [claude-pipeline](https://github.com/aaddrick/claude-pipeline) - Portable multi-agent pipeline with skills, agents, hooks, orchestration scripts, and quality gates. 97 stars.
 - [glebis/claude-skills TDD](https://github.com/glebis/claude-skills) - Multi-agent TDD orchestration with architecturally enforced context isolation via Claude Code's Task tool. Interactive mode pauses at each RED checkpoint; autonomous mode runs all slices end-to-end.
-- [Ponder](https://github.com/Quinnod345/ponder) - Multi-pass deliberative code review workflow combining a `UserPromptSubmit` ledger-state hook (`hooks/hooks.json`), a 4-perspective review skill (`skills/ponder/SKILL.md`), and a coverage-gated CLI (`bin/ponder`) that blocks completion until every unit in scope is graded and passes converge.
+- [Ponder](https://github.com/Quinnod345/ponder) - Multi-pass deliberative code review workflow combining a read-only status line and `/ponder-status` hook (`hooks/hooks.json` + `hooks/register.mjs`), a 4-perspective review skill (`skills/ponder/SKILL.md`), and a coverage-gated CLI (`bin/ponder`) that blocks completion until every unit in scope is graded and passes converge.
 
 ## Git and PR Automation
 
