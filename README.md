@@ -187,7 +187,7 @@ All-in-one frameworks that bundle skills, hooks, agents, and commands into a sin
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - The definitive list of MCP servers. 83K stars.
 - [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) - Claude Code skills collection. 47K stars.
 - [awesome-claude-skills (travisvn)](https://github.com/travisvn/awesome-claude-skills) - Another curated Claude Code skills list with different curation focus.
-- [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) - Vibe coding tools and resources. 3.6K stars.
+- [awesome-vibe-coding](https://github.com/taskade/awesome-vibe-coding) - Taskade-maintained vibe-coding tools and resources.
 
 ## Contributing
 
