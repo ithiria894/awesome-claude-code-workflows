@@ -117,6 +117,7 @@ Workflows for market research, codebase exploration, and knowledge gathering.
 - [Autoresearch autonomous loop](https://github.com/karpathy/autoresearch) - Karpathy's autonomous AI research agent: modify code → train for 5 min → evaluate → keep/discard → repeat. Only 10 files — intentionally minimal. program.md is 114 lines of substantive instructions. Codex-verified.
 - [Everything Claude Code continuous learning](https://github.com/affaan-m/everything-claude-code) - Auto-extracts patterns from coding sessions into reusable skills. The agent learns from its own work.
 - [glebis/claude-skills deep-research](https://github.com/glebis/claude-skills) - Multi-tool research orchestration combining OpenAI, Firecrawl, and web scraping with structured output. Includes insight-extractor that parses Claude Code's `/insights` into actionable markdown files.
+- [publicrecords-skills](https://github.com/GeminiGeorge22/publicrecords-skills) - Agent Skills + MCP plugin (Claude Code, Codex, Copilot, Cursor, Gemini CLI, Kiro) for 18 public-data Apify Actors: SAM.gov, Grants.gov, USAspending, EU/UK tenders, council meetings, ATS jobs, company socials, Google Ads, Etsy, sports odds, Spotify.
 
 ## Browser and Testing
 
